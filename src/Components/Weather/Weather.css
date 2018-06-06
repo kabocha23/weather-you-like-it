@@ -1,0 +1,39 @@
+.weather-info {
+    width: 85%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.weather-key {
+    color: #f16051;
+    border-bottom: solid 2px rgba(255,255,255,0.06);
+    padding: 20px 0 20px 0;
+    font-weight: 400;
+  }
+  
+  .weather-key:last-child {
+    border: 0;
+  }
+  
+  .weather-value {
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  
+  .weather-error {
+    color: #f16051;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+  .weather-value p{
+    margin-bottom: 0;
+    display: inline-block;
+    width: 85%;
+  }
+  .weather-icon{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+  }

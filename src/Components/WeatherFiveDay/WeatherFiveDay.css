@@ -1,0 +1,38 @@
+.five-day-info{
+    max-height: 100%;
+    width: 85%;
+}
+.five-day-value{
+    width: 100%;
+    color: #fff;
+    font-weight: 200;
+}
+.five-day-flex{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.mapped-five-day{
+    width: 100%;
+    border-bottom: 1px solid steelblue;
+    flex: 0 1 auto;
+    padding: 5px;
+}
+.five-day-key:last-child{
+    border: 0;
+}
+.five-day-error{
+    color: #f16051;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+span{
+    display: block;
+}
+.mapped-five-day p {
+    margin-bottom: 0;
+    display: inline-block;
+}
+.five-day-date{
+    font-weight: 500;
+}
